@@ -25,7 +25,7 @@ export class HomePage {
       iosdelay: 50
     }
     this.nativepagetransitions.slide(options);
-    this.navCtrl.setRoot('secondPage');
+    this.navCtrl.setRoot('SecondPage');
   }
 
   flipPage() {
@@ -34,12 +34,12 @@ export class HomePage {
       duration: 600
     }
     this.nativepagetransitions.flip(options);
-    this.navCtrl.setRoot('secondPage');
+    this.navCtrl.setRoot('SecondPage');
   }
 
   fadePage() {
     this.nativepagetransitions.fade(null);
-    this.navCtrl.setRoot('secondPage');
+    this.navCtrl.setRoot('SecondPage');
   }
 
   curlPage() {
@@ -48,6 +48,6 @@ export class HomePage {
       duration: 600
     }
     this.nativepagetransitions.curl(options);
-    this.navCtrl.setRoot('secondPage')
+    this.navCtrl.setRoot('SecondPage')
   }
 }

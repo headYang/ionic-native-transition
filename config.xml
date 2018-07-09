@@ -82,4 +82,6 @@
     <plugin name="cordova-plugin-ionic-webview" spec="1.1.19" />
     <plugin name="cordova-plugin-ionic-keyboard" spec="2.0.5" />
     <plugin name="com.telerik.plugins.nativepagetransitions" spec="^0.6.5" />
+    <engine name="ios" spec="~4.5.4" />
+    <allow-navigation href="http://192.168.0.106:8100" />
 </widget>
